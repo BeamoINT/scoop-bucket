@@ -1,15 +1,15 @@
 {
-    "version": "1.4.5",
+    "version": "1.5.0",
     "description": "Use Codex GPT models through the Claude Code interface",
     "homepage": "https://github.com/BeamoINT/Claudex",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BeamoINT/Claudex/releases/download/v1.4.5/claudex-1.4.5-windows.zip",
-            "hash": "6c997368e35e8d6c52112d804782b36047934765006ba125de64b941e6d20446"
+            "url": "https://github.com/BeamoINT/Claudex/releases/download/v1.5.0/claudex-1.5.0-windows.zip",
+            "hash": "cd36fe20b2a83d38be361b254b15e769f74cf1b35e54a8a67bcfb5d570f7c765"
         }
     },
-    "extract_dir": "claudex-1.4.5",
+    "extract_dir": "claudex-1.5.0",
     "depends": [
         "nodejs",
         "jq"

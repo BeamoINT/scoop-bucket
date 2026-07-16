@@ -8,9 +8,9 @@ scoop install beamoint/claudex
 claudex --login
 ```
 
-Claudex requires Codex and Claude Code to be installed on the machine. Scoop
-installs the Node.js and jq runtime dependencies used by Claudex's automatic
-first-run setup.
+Claudex's automatic first-run setup installs Codex and Claude Code when they
+are missing. Scoop installs the Node.js and jq runtime dependencies used by
+that setup.
 
 ## Beamo Flasher CLI
 
