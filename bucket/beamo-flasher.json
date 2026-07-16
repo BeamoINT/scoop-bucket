@@ -1,0 +1,29 @@
+{
+  "version": "0.3.1",
+  "description": "CLI for flashing verified removable-media images.",
+  "homepage": "https://github.com/BeamoINT/beamo-flasher",
+  "license": "MIT",
+  "depends": "nodejs-lts",
+  "url": "https://github.com/BeamoINT/beamo-flasher-releases/releases/download/v0.3.1/beamo-flasher-cli-v0.3.1.zip",
+  "hash": "89b93b8dfb6326d678ad5da3da25b65941d067527f70bea74083a88be116dff4",
+  "bin": [
+    [
+      "bflash.cmd",
+      "bflash"
+    ],
+    [
+      "beamo-flasher.cmd",
+      "beamo-flasher"
+    ]
+  ],
+  "checkver": {
+    "github": "https://github.com/BeamoINT/beamo-flasher-releases"
+  },
+  "autoupdate": {
+    "url": "https://github.com/BeamoINT/beamo-flasher-releases/releases/download/v$version/beamo-flasher-cli-v$version.zip",
+    "hash": {
+      "url": "https://github.com/BeamoINT/beamo-flasher-releases/releases/download/v$version/SHA256SUMS.txt",
+      "regex": "([a-fA-F0-9]{64})\\s+beamo-flasher-cli-v$version\\.zip"
+    }
+  }
+}
