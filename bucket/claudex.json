@@ -1,15 +1,15 @@
 {
-    "version": "1.5.3",
-    "description": "Use Codex GPT models through the Claude Code interface",
+    "version": "1.6.1",
+    "description": "Run Claude and GPT models through Claude Code with isolated provider routing",
     "homepage": "https://github.com/BeamoINT/Claudex",
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://github.com/BeamoINT/Claudex/releases/download/v1.5.3/claudex-1.5.3-windows.zip",
-            "hash": "61cf8cac4b42a825e7fa30edc704284b3089dd30c3dfb761a696bb5d729621f0"
+            "url": "https://github.com/BeamoINT/Claudex/releases/download/v1.6.1/claudex-1.6.1-windows.zip",
+            "hash": "1818ca1af7c22b062b4b393926a3ed7d99da54707257cdd6a4c5da58e0f6faf6"
         }
     },
-    "extract_dir": "claudex-1.5.3",
+    "extract_dir": "claudex-1.6.1",
     "depends": [
         "nodejs",
         "jq"
