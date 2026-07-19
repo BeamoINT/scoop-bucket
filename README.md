@@ -21,3 +21,17 @@ scoop bucket add beamoint https://github.com/BeamoINT/scoop-bucket
 scoop install beamoint/beamo-flasher
 bflash --help
 ```
+
+## Browser SSH CLI
+
+Install [bssh](https://browserssh.com) on Windows with:
+
+```powershell
+scoop bucket add beamoint https://github.com/BeamoINT/scoop-bucket
+scoop install beamoint/bssh
+bssh --help
+```
+
+`bssh` is the first-party CLI for the Browser SSH agent API and MCP install glue.
+Scoop installs the Node.js runtime dependency; the CLI is a self-contained bundle
+shipped as a GitHub Release asset (not published to npm).
