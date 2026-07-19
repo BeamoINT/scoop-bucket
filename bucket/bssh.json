@@ -1,0 +1,30 @@
+{
+    "version": "0.1.0",
+    "description": "CLI for Browser SSH agent API and MCP install glue",
+    "homepage": "https://browserssh.com",
+    "license": "MIT",
+    "architecture": {
+        "64bit": {
+            "url": "https://github.com/BeamoINT/homebrew-tap/releases/download/bssh-v0.1.0/bssh-0.1.0-windows.zip",
+            "hash": "8017bc6d3a29f9216115a20d165bd3a46204bd25e5fbb5ac3611bd91039e19a6"
+        }
+    },
+    "depends": "nodejs",
+    "bin": [
+        [
+            "bssh.cmd",
+            "bssh"
+        ]
+    ],
+    "checkver": {
+        "github": "https://github.com/BeamoINT/homebrew-tap",
+        "regex": "bssh-v([\\d.]+)"
+    },
+    "autoupdate": {
+        "architecture": {
+            "64bit": {
+                "url": "https://github.com/BeamoINT/homebrew-tap/releases/download/bssh-v$version/bssh-$version-windows.zip"
+            }
+        }
+    }
+}
